@@ -1,0 +1,39 @@
+const reviews = [
+  {
+    id: 1,
+    name: "Aryan Jha",
+    job: "Software Engineer",
+    image: "https://lh3.googleusercontent.com/pw/ADCreHe6FFlf81O6j4gp8ymZTB-DkjOQWKrJ0zv5KRUD0_xuYxOQmxIYYcFOeYRoy_snNix16n5X2aVtFtoU6G4F1RtWcgJ7VHw8_v6eBay63boAd6s3LNjndVkyb3r0paiZCU65HN9LFBaYHDGl2j087Xuu8bXWMqvetxBs0tmSIjqwWWQ_a8_rtzY1N1t00PxfZehqmQszCikpNOt8O65yET9tth2L-RKbJrFImbn4AXekQm4c9JPCQjLX9E1HGEjcJ-mNXYwegLrUKS0IeupardHq7zpFEaWl4dWFB0yluDey1kWtjVCJGooMP2RqKTX4iPQvVmPi2ksKCv2Go1_5o03gMYlqnLxVQA6x4xZMLWUzHUzdvw4AlF1CJ4Vk55yG2mI6uB7GESWJyHmKwZ1MOVOc4kqCr1BHUnA0lZYvkPgnL_LZbapFh2MpcnOrSIrhu77fgoEfzJDU98Z3XKj5IfEz_50MAj2dljoATxQ_etZjQOWdFFgR-vxEZ1a9H4hWuE4S0sYLe1lZOxGoCpTssS8VRHLF059BJ-ZXYTHYxLpe2_iANoUP1DdvOGeNVC96Alp5fH95iek8RYnCCCtFBe6PEKwj1jqd2Ry-UCbl1cBQlyEm8CnCLZ8KF9dQnl2a244RVWx7WbirW9YJVo5zPuPlELZxPUc8iZWx_RMl5jh-l5-K3hvYDmVs5kN588h5l82RvP3glvHhnYb9-cBB1vVtLSgwK2wD15sOZUkUtRzjAdXz9mY0wiSPUUK5NFxmZkS4li-ZzioHFvZrZvhTg-BYW7pSIkCbWhIRJuHxw7l4m6rhoC8wrShtWjBML4EFSagziRi5-IajmKlLBPv-8zx6GTPBwm1kvt1Pp5yOjQyBxynnKv87Ji9V0LBdkMn9C35ElnkgsbQ-UmFAehmovjfBEILfsU_4TdNM8BoLmQ=w696-h928-s-no-gm?authuser=1",
+    text: "I have had the pleasure of working with this team on several projects, and I am consistently impressed with their technical expertise and ability to deliver quality solutions on time and within budget. They are a true partner and an asset to any project.",
+  },
+  {
+    id: 2,
+    name: "Dhanesh Dhakrey",
+    job: "Graphic Designer",
+    image: "https://lh3.googleusercontent.com/pw/ADCreHeW254IqjHY7P-_GDXYJoA1sLLayVYXs-aIh-D6FVzUjirYlw8vJGecrOTOB1yZZFrknhMz5XUUo6gBe8-xtciPTTnQ0cFhK698KZMPFuqRECm6cmZnZ-lZBkPObHAN9FwV2RPMsqvgPXoXEtJ5GXZ6JeD6OmcokkjVf_WPoOkDXKH_ew6YtDO1U2Kko2HXIRPhr7GtZhQX11XlZhV9KYfUYxiMGiYBMiBXlEZvITDEpq-AcHtxQmgeKgG3qZNaxrQxyeVquGlrWzWOUSgTLTBwNRzHFKrv96wnD_APUfj-0LtA4jY6GaVrF0426TB9vRQQuHZYdDOzAWGgIrUSQ9GEGcvP0RESWWM9rLrvL3p0mzGBcNcQ9WHYBCdkRvXEdxEwRBMQGh0MO-etlOT0kKg_9ogl5msh9vNJh3dEKaGwiXR4q3Zd5RJLKPLpWwG8d5VxVPtzwTlsIz_hyVepbar3i4AbntKU2jGMRl_ZsriXcsNf0tWYeGY5AR08XFb6BNI8vQrRDzIHucAzUwuvloyZlDBdc7xAwT25Q55N0iQ71Vavn_AnGjyLlhZDFclrCoW-h9Zr65MKViSI1Ziuacte-LU29uL9Dx7BY6SiZceo0QQdpcHTVeNNdIFX7oW9GIkBemf-u7dGs4mwJQ1EMu93PY-D2zQVByo8Iy-hWxsoOMmuY-MwPtrS9Zg3RudTJkT43oOtE7UQnfto_4WjNnCbR4__AZRkaEmBEa6Yx2KpPl-V4cqryZGE_LXev9DcJ-avm7UiwOpz8pOJJugDDFjDrTxxwTpRLBEy-LWNuZRKbew3FySq2tzRC_3wlih9tLhfKze9gEnjZYOoVJWlaBQBSNf8usSZ0_fNJoayWCiBjmiBZwCRyIF3Wcyvlv7_BzUXIAsztCBeWhAbuVrax6wuUN8YDPp-NuaxbL63RA=w696-h928-s-no-gm?authuser=1",
+    text: "I have been working with this company for several years now, and I have always been impressed with their creativity and attention to detail. They are true professionals who take pride in their work and always go above and beyond to deliver exceptional results.",
+  },
+  {
+    id: 3,
+    name: "Tarun Kumar",
+    job: "Marketing Manager",
+    image: "https://lh3.googleusercontent.com/pw/ADCreHdslXWhESViDlRWQ7PnGB9go-1Ai2lSGFanjgz7oTFzyjFnvtk3cOQCW3cxbZc0HlDSuQGZZc15mMVJCODRSY5Ipkw9VZnFyWw5vvWpqqE-z__7IDXgwOZiMkvtXXKdg_5kW0-jltSmLz6yCkeDKnzl6q5AyvDlosYIDFjJ2jUDeCwTHH1har2ZYmDEdpDV1kBReSawIMns_rBERo_kg-J7B3d24YmAzAsRjxT7iFmDe_7ONV9QAtCFn6CrboBXyHH4SvIPC_bjkrN_rUQNM_3GEt2a86V2kZ-KbgkyHD32xhOA7r6M-tlOp-ZVyZo2k3n5zkMwPJcbl_ywQcSLJhKMHu8B98gt7qfwyxgpAwc6_h9pSK_7SoqDPN6sjbXJ0bsBf9E26TDP_hXZJUaAOY4WcTKo8myKixblk2p40SnrMsmZ1PQ2zx4GskytI10VmkGUzOupXRCSo7qFD1cc5U18aZzTxwNLm2picF9L5O5r1mIIradzEoBfMXFdRVJT7HHR4B4vqJLM487rhzIs9lP7wqkzEAMt4A2VE5PGZ8vhwSYm5CMlNFu4ogPsXViWrwyzLGL3t_NJApQOS_xKCdPc5NI6OIsO4Uk2i7RqBWP1ATSly97gFLLSrt9Otpd1exps1B_azpU7KhtdriwfVCxGlsNzjmD8AHH-ghs2kKtJS-VXAfKnRAkjpbg6LYMZbpAiRvgQqqa8oyyCkBK3UFXhb-e5rKoDsACc11DpYUanCahLPz34gBTTbxzC2lwyXMK3yI_P7TB1hJLaTJ7V5wkvrObdA3_lozbiMai44lJeF2Eh6-3bV0voVuSnnz2EHtcegjhPyZdmCzyBTuM7LmcvgXPl7zjxZTQPBS6-XCVQFa9VfP4Rb03ERB9HqWxBZyLsIvWFGtncug8p0F_Mz1CU76RNvdfSOu9q1RWYgA=w696-h928-s-no-gm?authuser=1",
+    text: "I am thrilled with the results of our recent marketing campaign, and it wouldn't have been possible without the hard work and dedication of the entire team. Thank you for your exceptional work!",
+  },
+  {
+    id: 4,
+    name: "Rounish Chandra",
+    job: "Content Strategist",
+    image: "https://lh3.googleusercontent.com/pw/ADCreHcebpd349XXkHwPlV-bY_gbkgRX96QzXqyIGoPW78Mbjn32ihJa-jWp8vOVOLpJ8ParAY_BQzDbowWHseVde11m3kpNUD7UOHJ40I-8_FWEKTupFn87MjaZoOC_8c8IcKGBPRpCUHrMHFrDOT8umTRwbSJkmVXOuss0vZNVj7MssgrIVSdE2WbWyN7ORzetEaRIjUYj1UtYi9s5U-xZ3L3kptEzQGo9nh62td6vRv5DfT-eT3mldbls3Tj8V08WdFsSwFAYb68ymsSjDebdlod3PrmQHvcpT2RGUdhjFbqcoh13e0VewSTjBTzEexCPsuwr97_zy5_aetkebxiby56HScN5cDoq7CJ2h4Rg4ziwRjt_wYLrESLsXizSls_EvYVUrvjHMrRena1oyrk1xmrMUcOAezI72DU18NFdbyfsY-XBgWy4XnUtz7HglGDyibAOlQTRL3s_ELSuA4uyy0_XhxbqTQieUZT4aJLgUhex82JySuXZgxAiXBpg--DSOYWoZ8Qu7r67pTVjUHOt8YNUBN6Nt9zyzzKpRRl44v9xN_CnpyzLC4BpY0I3c5-Mavyacu8um5UjnX2IEN1q5g_AbI84TxoS_uHdOO4d_9T4ZWG6wltqQmopCIm3J-SrWIgofg6XJKAE0r2xAaSozMOwWkO7Y70EDgFSxzeG3CWBzHOCfp7RZEO6N2Wj57C3rFyrNbhgPMrBp6VXFW9OQaabsfaPEl6OhLdaGunPkacnvn-VlE-8POTifk3gb1TqDgm0s1pZapdLbT6eG71g03ZMfvrnPlTj62X9c-zCrOxLye2NahUocMojI7B8qsc0dFFletbTgjPg-WsVj0KhV8ISced1C7-iMk37jfP268-oWO7IPMDRzZb9oTnkbaAJS_SBwT36Pi9rK3f-AGVf40m6i-1Q_TLFQ4OtixFIzQ=w696-h928-s-no-gm?authuser=1",
+    text: "I have worked with many content creators over the years, but none have impressed me as much as this team. They have a knack for crafting compelling and engaging content that resonates with our audience and drives real results. I highly recommend them!",
+  },
+  {
+    id: 5,
+    name: "Vipin Tomer",
+    job: "Data Analyst",
+    image: "https://lh3.googleusercontent.com/pw/ADCreHeBscsOQuvw7cC4Z3YvnRxrkMWW-4iN-Gtq9rx9chF892enLNA9hVPzo0Cvkl4zjagdLD-iA4cGLAxtPMeeNKi2vxS2w1tqaN_g-wJXhDJe2rzgviR-QJegfE2jESDu2S9get9jLuy-E6CRjH1vF3N-Q_nrFyICS4iEQBs9tS-LjdrWCgYdHyi-EITIi02juWtSpsZU9vPsN8aBsV2pmJ0vwQWpH1T-l3zaiBzkBH-cZYuIT2a4LTfNw0cOMWfwPlC8nZs7TxJP96m--zoduUyWEQBvM0fMIvvkVPyL7lrfe3wgjLemZ0u4AcFi0zsyyh9lg4lltQz-ZUzAsrkR0x1FzAw1s0oV0W7kCKWjJOg53kkOcQ7fcg30ei0zL7ukFzBVdInRL4FwwlPBjQtADxIKmwhd6BErg2vHHe_aG7uxdvOlxSXa2m2IcYEJHJOitO6uiJAHmcNP1elnHh9InUt70sjyMmV7dHjcCqnPz1zc_wl2kreX1RMz1u1Cr1ye6nS0Yny5kHMHApKER7pAN2qBGPqkLYOum26E4D3mvxjF88AIRXfToNPhHSXbv9LR4iE2tI_Kg56T6BsDd7FlOu77uYbXoSrIf3JKbIf48PvHy1DMT8h8rp2PuuElVcp6OZO1vqnAbsTp_LYurnEmLO8gWTpb90E44kAprwzBFfMwgcL4mQPdCJcHgLDeQFKMJbqgrLDbCyMVq49MG1UfiZeIkgtKystzsXEa6BIxtapH2g1FtmMfmxeW9k1fAFX-eU1QYTwibb2x3IKRbCmkSjlc0Uveqf2Fx1USa1G9tyhJ8nT40czYrTBAHZqOikbg7o1U8_viVJvCoUMU3PFMwV_ZrvjYimg2prza9xEITSce3DJEgR9Odu89tnQgw3dAHdtq1BIG6Ifa0-fkkChkLSo6klxtTUtUrxDI2OWQug=w1236-h928-s-no-gm?authuser=1",
+    text: "I had the opportunity to work with this team on a data analysis project, and I was impressed with their attention to detail and their ability to work with complex datasets. They provided valuable insights that helped us make informed business decisions. It was a pleasure working with them.",
+  },
+];
+
+export default reviews;
